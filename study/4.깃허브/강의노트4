@@ -1,0 +1,45 @@
+Step 1. $ git remote add origin <원격저장소 주소>
+
+로컬 저장소의 프로젝트를 원격 저장소에 반영!
+
+Step 2. $ git push -u origin <브랜치명>
+
+$ git push -u origin main
+
+원격 저장소로 프로젝트를 push 하면 Github에서 코드 확인 가능
+
+
+
+
+5-9. Github으로 협업하기 (1)
+
+Step 1. $ git clone <원격저장소 주소>
+
+$ git clone https://github.com/[계정명]/[프로젝트명].git
+
+-> 프로젝트명
+
+Step 2.
+
+$ git checkout -b <브랜치명>
+$ git checkout <브랜치명>
+
+$ git checkout -b feature-1
+
+$ git commit -m ...
+
+Step 3.
+
+$ git merge <브랜치명>
+
+$ git merge feature-1
+
+만약에 서로 다른 브랜치의 코드가 같은 곳에 위치한 코드가 다르다면?
+
+
+5-11. Git GUI 활용하기
+
+- Atlassian SourceTree, fork, VS Code + GitLens
+
+터미널의 명령어가 아닌 그래픽 유저 인터페이스 활용
+

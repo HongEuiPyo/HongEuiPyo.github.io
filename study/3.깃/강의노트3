@@ -1,0 +1,88 @@
+local       Working Directory       현재 작업 중인 프로젝트가 위치한 디렉토리         Git의 구조 (Local Repository)
+                    | pull                                                      | fetch/clone   |push
+remote
+                                        Remote Repository - Github
+---------------------------------------------------------------------------------------------------------
+
+Staging - commit 할 파일의 예비 저장소
+
+
+#로컬 Git 저장소 생성
+
+Step 1. $ git init
+
+local
+
+remote
+
+나의 포르젝트가 위치한 곳으로 이동 후 터미널에서 명령 실행
+
+Step 2. .gitignore 파일 추가
+
+ex) 신용 카드   ->  구글 드라이브, 드롭 박스
+
+데이터이스 계정
+클라우드 시크릿 키      ->      git
+각종 민감 정보
+
+.gitignore
+config.txt
+
+.gitignore 파일과 같은 위치에 있는 config.txt는 git에서 무시
+
+보안상 민감 정보
+각종 설정 파일
+빌드 산출물
+개발용 데이터베이스
+
+https://github.com/github/gitignore
+
+Step 3. $ git status
+
+Step 4. $ git add . 또는 $ git add "<파일명>"
+
+나의 프로젝트 중 버전관리에 반영할 파일 지정
+
+버전관리에 반영된 파일의 영역이 Staging Area
+
+Step 5. $ git commit -m "<message>"
+
+로컬 저장소에 변동 기록을 남기기 위해 commit을 실행
+
+commit을 통해 새로운 버전을 git에 등록
+
+message를 남기는 이유? commit에 대한 정보 기록!
+
+Step 6. $ git branch -M main
+
+main
+staging
+feature
+
+main/master
+- 즉시 운영 배포할 수 있는 버전
+- 사용자가 지금 이용 중인 코드
+
+main이 아니라 master 아닌가요?
+인종차별/주종관계를 드러내는 용어 수정 프로그래밍 전반에 확산
+
+master  ->  main
+
+master  ->  primary
+slave       replica
+
+blacklist   ->  blocklist
+whitelist       allowlist
+
+$ git branch -M main
+
+현재 바라보고 있는 branch의 이름을 main으로 변경
+
+main을 기본 브랜치명으로 사용
+
+staging
+- 상용에 반영하기 전 테스트 버전
+
+feature
+- 새로운 기능 추가 개발(병렬 작업)
+

@@ -1,0 +1,33 @@
+Github Pages로 배포하기
+
+Step 1
+Github Pages 원격 저장소 만들기
+
+- 리포지토리를 만든다
+- 리포지토리 이름을 [계정명].github.io 로 한다
+
+Step 2
+HTML 파일 만들기
+
+- index.html
+
+Step 3
+Git 저장소 초기화 및 Github 반영
+
+$ git init
+$ git add .
+$ git commit -m "커밋 메세지"
+$ git remote add origin 원격저장소 주소
+$ git push -u origin main
+
+Step 4
+배포된 페이지 확인
+
+- [계정명].github.io
+
+$ pwd
+/c/Users/gging
+
+$ cd Desktop/workspace/practice/
+
+

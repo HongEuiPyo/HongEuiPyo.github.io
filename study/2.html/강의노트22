@@ -1,0 +1,84 @@
+JS != Java
+
+HTML - 구조/내용
+CSS - 모양/스타일
+JS - 이벤트/반응
+
+브라우저로 HTML 요소 확인하기
+- 개발자 도구
+
+HTML/CSS/JS 등 요소 내용
+에러 로그
+네트워크 통신 정보
+
+ctrl + shift + i / F12
+alt + cmd + i
+
+VS Code 확장 프로그램
+- Auto Close Tag
+- Auto Rename Tag
+- HTML CSS Support
+- Community Material Theme
+- Winter is Coming Theme
+
+글꼴
+- D2Coding
+
+코딩 도와주는 툴
+- codepen, replit
+
+Git & Github의 등장과 역할 /* 코드를 관리하는 법 */
+- Git: 소스 이력 추적을 위한 버전 관리 시스템
+- Github: git 프로젝트를 관리하는 저장소 제공
+
+Git 설치 및 세팅하기
+- https://git-scm.com/download/win
+
+- 사용자 등록
+git config --global user.name "<이름>"
+git config --global user.email "<이메일 주소>"
+git config --list                              // 깃 설정 정보 모두 보기
+
+Git 설치 및 세팅하기 - 맥
+- iterm 을 사용하면 cmd 명령창 사용이 쉽다
+-
+
+HyperText Markup Language
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
